@@ -1,0 +1,90 @@
+.none {
+    display: none;
+}
+
+header {
+    height: 5%;
+    display: flex;
+    align-items: center;
+    background-color: blanchedalmond;
+    margin-bottom: 30px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    justify-content: space-evenly;
+    display: flex;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+    
+}
+
+nav>ul>li {
+    border: 1px solid black;
+    border-radius: 16px;
+    background-color: yellow;
+    align-items: center;
+    height: 25px;
+}
+
+nav>ul>li:hover {
+    background-color: grey;
+}
+
+nav>ul>li:hover a {
+    color: white;
+}
+
+.account {
+    min-width: 115px;
+    justify-content: center;
+}
+
+.account span, .account li {
+    height: 100%;
+       display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.account li {
+    height: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+.account a {
+    text-align: center;
+    width: 100%;
+}
+
+.account ul {
+    margin: 0 -1px;
+}
+
+.account:hover {
+    border-bottom: none;
+    border-radius: 16px 16px 0 0;
+}
+
+.account:hover>ul {
+    display: block;
+    background-color: grey;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 0 0 16px 16px;
+}
+
+.account li:hover a {
+    color: thistle;
+}
+
